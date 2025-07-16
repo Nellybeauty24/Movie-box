@@ -1,0 +1,21 @@
+
+.hero{
+    width: 100vw;
+    min-height: 100vh;
+    
+    
+}
+
+.rating{
+    display: flex;
+    justify-content: space-between;
+    min-width: 200px ;
+}
+
+.rating div{
+    margin: 4px 0;
+}
+
+.rating span {
+    margin: 0 8px;
+}

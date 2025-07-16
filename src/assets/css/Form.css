@@ -1,0 +1,95 @@
+
+
+
+.login-form {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+ align-items: center;
+ text-align: center;
+  width: 500px;
+  height: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form p {
+  font-size: 14px;
+  color: #666;
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+.login-form h1{
+    font-weight: 900;
+  
+}
+
+.login-form .myp{
+  padding-top: 30px;
+  font-weight: 700;
+}
+
+.input-wrapper {
+  position: relative;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.input-wrapper input {
+  width: 100%;
+  height: 40px; /* Set consistent height */
+  padding: 0 40px 0 10px; /* Leave room on the right for icon */
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 35%;
+  right: 12px;
+  transform: translateY(-50%);
+  color: #888;
+  cursor: pointer;
+  font-size: 18px;
+  pointer-events: all;
+}
+
+
+@media(max-width:600px){
+  .login-form {
+  
+  width: 300px;
+
+}
+.login-form h1{
+   font-size: 22px;
+   padding-top: 5px;
+  
+}
+
+.login-form p {
+font-size: 15px;
+}
+}
