@@ -14,21 +14,21 @@ function Footer() {
       <div className={index.footer}>
 
          <div className={index.socialLinks}>
-          <a href="">
+          <a href="#">
               <img src={facebook} alt="facebook" />
           </a>
 
-          <a href="">
+          <a href="#">
               <img src={instagram} alt="instagram" />
           </a>
 
           
-          <a href="">
+          <a href="#">
               <img src={twitter} alt="twitter" />
           </a>
 
           
-          <a href="">
+          <a href="#">
               <img src={youtube} alt="youtube" />
           </a>
 

@@ -182,7 +182,7 @@ li {
 .icon2{
     
     
-    width: 120px;
+    width: 10px;
     
 }
 
@@ -214,6 +214,10 @@ li {
 .search{
     height: 30px;
     width: 140px;
+}
+.search input{
+    display: none;
+    width: 300px;
 }
 .middle{
     width: 100%;
@@ -275,6 +279,9 @@ li {
 .search{
     height: 30px;
     width:70px;
+}
+.search input{
+
 }
 .icon2{
     
