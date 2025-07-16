@@ -241,15 +241,35 @@ li {
 
 
 .info > label{
-    font-size: 15px;
-    height: 300px;
+    font-size: 18px;
+    height: 40px;
     margin: 15px 0;
     width: 200px;
+    
     
 
 }
 
 }
+@media(max-width:300px){
+
+.search{
+    height: 30px;
+    width:70px;
+}
+.icon2{
+    
+    
+    width: 10px;
+    
+}
+.icon2 span{
+    display: none;
+}
+
+
+}
+
 
 
 
