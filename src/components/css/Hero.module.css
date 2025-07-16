@@ -270,6 +270,25 @@ li {
 
 }
 
+@media(max-width:390px){
+
+.search{
+    height: 30px;
+    width:70px;
+}
+.icon2{
+    
+    
+    width: 10px;
+    
+}
+.icon2 span{
+    display: none;
+}
+
+
+}
+
 
 
 
